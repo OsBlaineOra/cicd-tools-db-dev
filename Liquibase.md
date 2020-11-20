@@ -8,7 +8,7 @@ Throughout this section you will see the following instruction link
 
 [Git add/commit/push][GitLink]  
 
-[GitLink]: (Liquibase.md#git-add-commit-push "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push&#10;cd liquibase")  
+[GitLink]: index.html?lab=lab-3-liquibase#GitAddCommitPush "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push&#10;cd liquibase)  
 
 You may click the link to return to the below instructions, if you would like to copy and paste the commands.  
 You may also hover the link to see the commands displayed in the popup text.
@@ -124,7 +124,7 @@ Add the following to the file
 ```
 This changelog includes the following elements:
 * [Preconditions](https://docs.liquibase.com/concepts/advanced/preconditions.html) are checks that will be evaluated before the changes are executed.  In this changelog you are ensuring that the changes will only be executed if you are either connected as `hol_dev` or `hol_test`.
-* A [changeset] is a group of changes.  The id value can be any string that makes sense for your project.  The author value should be changed to your name.
+* A [changeset](https://docs.liquibase.com/concepts/basic/changeset.html?Highlight=changeset) is a group of changes.  The id value can be any string that makes sense for your project.  The author value should be changed to your name.
 * The changes array can contain one or more [Change Types](https://docs.liquibase.com/change-types/home.html).  In this changelog you will be creating a table.  As you read through the JSON object it may sound similar to how you would write an SQL script.
 
 ### Changelog Master file

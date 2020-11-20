@@ -1,6 +1,6 @@
 # CI/CD Tools for Database Developers
 ## Create an Oracle Always-Free Cloud Account
-1. Go to https://bit.ly/agiledevops-trial
+1. Go to [https://www.oracle.com/cloud/free/](https://www.oracle.com/cloud/free/)
 2. Click "Start for free"
 3. Populate the forms and create an account.
 4. Once your account is created, [log in](https://www.oracle.com/cloud/sign-in.html) and go to the dashboard.  
@@ -44,7 +44,7 @@ Click on the Cloud Shell icon.
 ![](images/cloudShell.png)  
 This will open a preconfigured VM that you will use to access and setup your project.
 
-### Working in the Oracle Cloud Shell
+### Nano Save and Exit
 * The instructions in this lab use nano to edit files.  (You are welcome to use another editor if you prefer.)  
 To close and save a file in nano do the following.
    1. Ctrl-X
@@ -53,16 +53,16 @@ To close and save a file in nano do the following.
 * When using nano in the cloud shell use `Ctrl-Shift-V` or `Shift-Insert` to paste, rather than `Ctrl-V`.
 * At times you will see the following instruction link  
 
-   [SaveLink]: (README.md#working-in-the-oracle-cloud-Shell "Save and exit Nano&#10;Ctrl-X&#10;Y&#10;Enter")  
+   [SaveLink]: index.html?lab=lab-1-cloud-infrastructure-configuration#NanoSaveandExit "Save and exit Nano&#10;Ctrl-X&#10;Y&#10;Enter)  
 
    [Git add/commit/push][GitLink]  
 
-   [GitLink]: (Liquibase.md#git-add-commit-push "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push")  
+   [GitLink]: index.html?lab=lab-1-cloud-infrastructure-configuration#GitAddCommitPush "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push)  
 
    You may click the link to return to the below instructions, if you would like to copy and paste the commands.  
    You may also hover the link to see the commands displayed in the popup text.
 
-   #### Git Add Commit Push
+### Git Add Commit Push
    Run the following in your **Cloud Shell(ssh)**
    ```
    cd ~/db-devops-tools
