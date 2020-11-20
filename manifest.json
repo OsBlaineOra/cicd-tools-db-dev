@@ -1,0 +1,61 @@
+{
+    "tutorials": [
+        
+        {         
+            "title": "CICD Tools for Database Developers",
+            "description": "Introduction to the workshop",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./Overview.md"
+        },
+        {         
+            "title": "Lab 1: Cloud Infrastructure Configuration",
+            "description": "Setting up the Infrastructure to support a Compute Instance running Docker",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./README.md"
+        },
+        {         
+            "title": "Lab 2: Jenkins Configuration",
+            "description": "Concepts, commands and a simple deployment",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./Jenkins.md"
+        },
+        {         
+            "title": "Lab 3: Liquibase",
+            "description": "Multi-container Application deployment using a Database",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./Liquibase.md"
+        },
+        {         
+            "title": "Lab 4: utPLSQL",
+            "description": "Multi-container Application deployment using a Database",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./utPLSQL.md"
+        },
+        {         
+            "title": "Clean up",
+            "description": "Multi-container Application deployment using a Database",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./Cleanup.md"
+        },
+        {         
+            "title": "Resources",
+            "description": "Want to Learn More?",
+            "partnumber": "Ennnnn_01",
+            "publisheddate": "10/31/2019",
+            "contentid": "12nnnn",
+            "filename": "./Resources.md"
+        }
+    ]
+}
