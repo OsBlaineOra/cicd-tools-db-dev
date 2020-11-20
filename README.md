@@ -1,25 +1,5 @@
 # CI/CD Tools for Database Developers
 
-This 4-hour lab walks you through the steps to
+The database is one of the most critical components of just about any application. Unfortunately, it is also often overlooked when it comes to automating the development process. Too often database changes simply take the form of "a bunch of scripts we hope work". The good news is that there are a lot of tools available to help automate and test database changes, many of them are open source. In this hands-on workshop, experience Open Source tools you can use to help integrate your Database application development into your CI/CD pipeline. Begin by using a schema migration tool to manage changes to your database schema. Generate SQL statements, deploy and rollback changes to your database schema, and automatically generate documentation. When your database supports code that is run internally, you need to be able to test that code. In this workshop, learn to write and execute tests for code that has been deployed inside the database and generate reports from the results. Finally, learn how to integrate these tools into a CI/CD pipeline allowing you to include the database component of you applications into your automated work-flow.
 
-1. Create an Oracle Cloud account
-1. Create an Autonomous Transaction Processing (ATP) Database
-1. Create an Oracle Compute instance and install/configure  
-   1. Git
-   1. Java
-   1. Liquibase
-   1. SQLcl
-   1. utPLSQL
-   1. Jenkins
-1. Setup a Jenkins project that will keep your Database schema current and tested
-1. Use Liquibase to make changes to your Database schema
-1. Use utPLSQL to unit test your Database PL/SQL code
-1. Cleanup
-
-## What You Need
-
-* Internet Browser
-* [GitHub](https://github.com/) Account  
-   If you do not already have a GitHub account, create one now
-
-[Next Section](index.html?lab=lab-1-cloud-infrastructure-configuration)
+[Get Started](https://osblaineora.github.io/cicd-tools-db-dev/index.html)
