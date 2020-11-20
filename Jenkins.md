@@ -174,4 +174,4 @@ You may run a build if you'd like, but there's not much for it to do until you w
 
 Keep this browser tab open so you can come back and check the status of your builds as they run.
 
-## Goto the [Liquibase](Liquibase.md) section
+[Next Section](index.html?lab=lab-3-liquibase)

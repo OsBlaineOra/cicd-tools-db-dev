@@ -58,3 +58,4 @@ Run the following in your **Cloud Shell**
 1. Click Terminate  
    ![](images/Cleanup-TerminateCompute2.png)  
 
+[Resources](index.html?lab=resources)

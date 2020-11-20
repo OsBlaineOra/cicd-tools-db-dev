@@ -7,7 +7,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "10/31/2019",
             "contentid": "12nnnn",
-            "filename": "./Overview.md"
+            "filename": "./README.md"
         },
         {         
             "title": "Lab 1: Cloud Infrastructure Configuration",
@@ -15,7 +15,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "10/31/2019",
             "contentid": "12nnnn",
-            "filename": "./README.md"
+            "filename": "./OCI-Config.md"
         },
         {         
             "title": "Lab 2: Jenkins Configuration",

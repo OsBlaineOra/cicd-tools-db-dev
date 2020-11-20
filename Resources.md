@@ -1,4 +1,5 @@
-## Resources
+# Resources
+
 * [Oracle Cloud](https://bit.ly/agiledevops-trial)
 * [Oracle Live Labs](https://oracle.github.io/learning-library/developer-library/)
 * [Jenkins](https://www.jenkins.io/doc)

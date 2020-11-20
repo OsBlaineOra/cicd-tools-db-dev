@@ -484,4 +484,4 @@ In this test you're expecting an exception to be thrown so there will not be a v
     * Check the test results, all 5 tests should pass.
     * Check the Lines code coverage, it should be at 100%.
 
-## Return to the [main](README.md#want-to-learn-more) section
+[Next Section](index.html?lab=clean-up)
