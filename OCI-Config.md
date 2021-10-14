@@ -116,6 +116,8 @@ Later, after everything is setup, you will use SQLDeveloper Web to access your d
 1. Log in as admin using the admin password you created for your Database.  
    ![Login to SQL Developer Web](images/sqlDevWebLogon.png)  
    ![SQL Developer Web](images/sqlDevWeb.png)  
+1. Under Development, click the SQL box.  
+   ![Login to SQL Developer Web](images/sqlDevWebLaunch.png)  
 1. Switch back to the Oracle Cloud browser tab.
 
 Click the "Oracle Cloud" logo on the left of the menu bar to return to the dashboard.
@@ -129,7 +131,7 @@ An Oracle Compute instance is a Cloud VM that you will use to install and run al
 1. Populate the name or keep the default.
    ![Create Compute instance form](images/createComputeForm1.png)
 1. Scroll down the the "Add SSH keys" section.
-1. Select "Paste SSH keys".
+1. Select "Paste public keys".
 1. In your **Cloud Shell**
    1. Generate a new RSA key pair.
 
