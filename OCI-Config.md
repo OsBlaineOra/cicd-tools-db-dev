@@ -65,7 +65,7 @@ To close and save a file in nano do the following.
 
    [Git add/commit/push][GitLink]  
 
-   [GitLink]: index.html?lab=lab-1-cloud-infrastructure-configuration#GitAddCommitPush "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push)  
+   [GitLink]: index.html?lab=lab-1-cloud-infrastructure-configuration#GitAddCommitPush "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/cicd-tools-db-dev&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push)  
 
    You may click the link to return to the below instructions, if you would like to copy and paste the commands.  
    You may also hover the link to see the commands displayed in the popup text.
@@ -75,7 +75,7 @@ To close and save a file in nano do the following.
    Run the following in your **Cloud Shell(ssh)**
 
    ```bash
-   cd ~/db-devops-tools
+   cd ~/cicd-tools-db-dev
    git add .
    git commit -m"your commit message"
    git push
@@ -380,7 +380,7 @@ This rsa key pair will be used to access your GitHub repository from the compute
 ### Setup GitHub repository
 
 1. **In your browser**  
-   Go to [https://github.com/OsBlaineOra/db-devops-tools](https://github.com/OsBlaineOra/db-devops-tools)
+   Go to [https://github.com/OsBlaineOra/cicd-tools-db-dev](https://github.com/OsBlaineOra/cicd-tools-db-dev)
 1. Click the 'Fork' button  
    ![Fork the repo](images/GitHub-Fork.png)  
 1. **In your new repository**  
@@ -418,7 +418,7 @@ This rsa key pair will be used to access your GitHub repository from the compute
 
    ```bash
    git clone <The SSH string copied above>
-   cd db-devops-tools
+   cd cicd-tools-db-dev
    ```
 
 1. Use SQLcl to create the database schemas  

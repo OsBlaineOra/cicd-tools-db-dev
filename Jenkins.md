@@ -63,6 +63,7 @@ Log in with the above password
    1. Select Git
    1. In Repository URL enter the https URL from your fork of the repository  
        **Note:** Using the https url (without credentials) instead of the ssh url will allow Jenkins read-only access to your repository. This is all you need for this lab.  
+   1. Set Branch Specifier to */main  
       ![SCM](images/Jenkins-SCM.png)
 1. Build Triggers
    1. Check "GitHub hook trigger for GITScm polling"  
