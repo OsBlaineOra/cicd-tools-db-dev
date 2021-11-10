@@ -8,7 +8,7 @@ Throughout this section you will see the following instruction links
 
 [Liquibase Update][LbUpdateLink]
 
-[LbUpdateLink]: index.html?lab=lab-4-utplsql#LiquibaseUpdate "Run the following in your Cloud Shell(ssh)&#10;cd ~/db-devops-tools/liquibase&#10;liquibase --contexts=test update&#10;cd ~/db-devops-tools)  
+[LbUpdateLink]: index.html?lab=lab-4-utplsql#LiquibaseUpdate "Run the following in your Cloud Shell(ssh)&#10;cd ~/cicd-tools-db-dev/liquibase&#10;liquibase --contexts=test update&#10;cd ~/cicd-tools-db-dev)  
 
 [Run Tests Locally][RunTestsLink]
 
@@ -16,7 +16,7 @@ Throughout this section you will see the following instruction links
 
 [Git add/commit/push][GitLink]  
 
-[GitLink]: index.html?lab=lab-4-utplsql#GitAddCommitPush 'Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push)  
+[GitLink]: index.html?lab=lab-4-utplsql#GitAddCommitPush 'Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/cicd-tools-db-dev&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push)  
 
 You may click the links to return to the below instructions, if you would like to copy and paste the commands.  
 You may also hover the links to see the commands displayed in the popup text.
@@ -26,9 +26,9 @@ You may also hover the links to see the commands displayed in the popup text.
 Run the following in your **Cloud Shell(ssh)**
 
 ```bash
-cd ~/db-devops-tools/liquibase
+cd ~/cicd-tools-db-dev/liquibase
 liquibase --contexts=test update
-cd ~/db-devops-tools
+cd ~/cicd-tools-db-dev
 ```
 
 ### Run Tests Locally
@@ -46,7 +46,7 @@ Run the following in your **Cloud Shell(ssh)**
 Run the following in your **Cloud Shell(ssh)**
 
 ```bash
-cd ~/db-devops-tools
+cd ~/cicd-tools-db-dev
 git add .
 git commit -m"your commit message"
 git push
@@ -60,7 +60,7 @@ Review the function
 Run the following in your **Cloud Shell(ssh)**
 
 ```bash
-cd ~/db-devops-tools
+cd ~/cicd-tools-db-dev
 cat source/gen_cust.fnc
 ```
 
@@ -179,7 +179,7 @@ In this test you are telling utPLSQL (ut) to expect that when you call the gener
 1. Start Web Server
 
     ```bash
-    pushd /home/opc/db-devops-tools; python -m SimpleHTTPServer; popd
+    pushd /home/opc/cicd-tools-db-dev; python -m SimpleHTTPServer; popd
     ```
 
 1. **In your browser**  

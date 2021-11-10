@@ -172,8 +172,8 @@ generate_key_pair() {
 # #   USER_HOME
 # #######################################
 # git_clone() {
-#    git clone <The SSH string copied above> ${USER_HOME}/db-devops-tools/
-#    cd db-devops-tools
+#    git clone <The SSH string copied above> ${USER_HOME}/cicd-tools-db-dev/
+#    cd cicd-tools-db-dev
 # }
 
 # #######################################
@@ -182,7 +182,7 @@ generate_key_pair() {
 # #   USER_HOME
 # #######################################
 # create_schema() {
-#    sql admin/n0tMyPassword@MyAtpDb_TP @${USER_HOME}/db-devops-tools/create_schema.sql
+#    sql admin/n0tMyPassword@MyAtpDb_TP @${USER_HOME}/cicd-tools-db-dev/create_schema.sql
 # }
 
 #######################################
