@@ -10,7 +10,7 @@ Throughout this section you will see the following instruction link
 
 [Git add/commit/push][gitlink]
 
-[GitLink]: index.html?lab=lab-3-liquibase#GitAddCommitPush "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/db-devops-tools&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push&#10;cd liquibase)
+[GitLink]: index.html?lab=lab-3-liquibase#GitAddCommitPush "Run the following in your Cloud Shell &#40;ssh&#41;&#10;cd ~/cicd-tools-db-dev&#10;git add .&#10;git commit -m&quot;your commit message&quot;&#10;git push&#10;cd liquibase)
 
 You may click the link to return to the below instructions, if you would like to copy and paste the commands.  
 You may also hover the link to see the commands displayed in the popup text.
@@ -20,7 +20,7 @@ You may also hover the link to see the commands displayed in the popup text.
 Run the following in your **Cloud Shell(ssh)**
 
 ```bash
-cd ~/db-devops-tools
+cd ~/cicd-tools-db-dev
 git add .
 git commit -m"your commit message"
 git push
@@ -39,7 +39,7 @@ liquibase --version
 Switch into the Liquibase directory.
 
 ```bash
-cd /home/opc/db-devops-tools/liquibase
+cd /home/opc/cicd-tools-db-dev/liquibase
 ```
 
 You could pass all of the required information to Liquibase with parameters each time you run it, or you can make it easier by creating a `liquibase.properties` file.
@@ -1771,7 +1771,7 @@ ls -la docs
 Use the following command to start a simple HTTP server with Python.
 
 ```bash
-pushd /home/opc/db-devops-tools/liquibase/docs; python -m SimpleHTTPServer; popd
+pushd /home/opc/cicd-tools-db-dev/liquibase/docs; python -m SimpleHTTPServer; popd
 ```
 
 Open a tab in your browser and go to `<YourPublicIP>:8000` to review the docs.
@@ -1791,7 +1791,7 @@ liquibase update
 Restart the HTTP server.
 
 ```bash
-pushd /home/opc/db-devops-tools/liquibase/docs; python -m SimpleHTTPServer; popd
+pushd /home/opc/cicd-tools-db-dev/liquibase/docs; python -m SimpleHTTPServer; popd
 ```
 
 Refresh the browser tab. Notice there are still no tables in the documentation.
@@ -1811,7 +1811,7 @@ liquibase DBDoc docs
 Restart the HTTP server.
 
 ```bash
-pushd /home/opc/db-devops-tools/liquibase/docs; python -m SimpleHTTPServer; popd
+pushd /home/opc/cicd-tools-db-dev/liquibase/docs; python -m SimpleHTTPServer; popd
 ```
 
 Refresh the browser tab. Notice there documentation is now current.
