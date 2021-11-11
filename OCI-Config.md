@@ -110,15 +110,15 @@ oci db autonomous-database generate-wallet --autonomous-database-id ${DB_OCID} -
 Later, after everything is setup, you will use SQLDeveloper Web to access your database.
 
 1. Click Tools
-1. In the SQL Developer Web box, click the "Open SQL Developer Web" button  
+1. In the Database Actions box, click the "Open Database Actions" button  
    ![Open SQL Developer Web](images/OpenSqlDevWeb.png)  
-   This will open SQL Developer Web in a new browser tab.
 1. Log in as admin using the admin password you created for your Database.  
    ![Login to SQL Developer Web](images/sqlDevWebLogon.png)  
-   ![SQL Developer Web](images/sqlDevWeb.png)  
 1. Under Development, click the SQL box.  
+   This will open SQL Developer Web in a new browser tab.
    ![Login to SQL Developer Web](images/sqlDevWebLaunch.png)  
 1. Switch back to the Oracle Cloud browser tab.
+   ![SQL Developer Web](images/sqlDevWeb.png)  
 
 Click the "Oracle Cloud" logo on the left of the menu bar to return to the dashboard.
 
